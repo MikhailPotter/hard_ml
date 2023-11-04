@@ -1,6 +1,7 @@
 from math import log2
 from torch import Tensor, sort
 
+import torch
 
 def num_swapped_pairs(ys_true: Tensor, ys_pred: Tensor) -> int:
     # допишите ваш код здесь
